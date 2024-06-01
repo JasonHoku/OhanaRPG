@@ -1,0 +1,100 @@
+.App {
+	text-align: center;
+}
+body {
+	background: linear-gradient(to top, #2a2139, 90%, rgb(23, 14, 48) 100%);
+	background-attachment: fixed;
+	background-position: center;
+}
+.App-logo {
+	height: 40vmin;
+	pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	.App-logo {
+		animation: App-logo-spin infinite 20s linear;
+	}
+}
+button:focus {
+	outline: darkblue;
+}
+.App-header {
+	background-color: transparent;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: left;
+	text-align: left;
+	font-size: calc(10px + 2vmin);
+}
+span {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.App-link {
+	color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+body > div:nth-child(9) > div > div {
+	z-index: 999;
+}
+
+#Popover1 {
+	z-index: 999;
+}
+
+.popover {
+	z-index: 999;
+}
+p {
+	color: whitesmoke;
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 15px #ffffff, 1px 1px 3px #ffffff;
+}
+h1 {
+	color: whitesmoke;
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 15px #ffffff, 1px 1px 15px #ffffff;
+}
+h2 {
+	color: whitesmoke;
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 15px #ffffff, 1px 1px 5px #ffffff;
+}
+
+h3 {
+	color: whitesmoke;
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 15px #ffffff, 1px 1px 5px #ffffff;
+}
+li {
+	color: whitesmoke;
+	font-weight: 600;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 15px #ffffff, 1px 1px 5px #ffffff;
+}
+strong {
+	color: whitesmoke;
+	font-weight: 900;
+	font-family: "Courier New", Courier, monospace;
+	text-shadow: 1px 1px 15px #ffffff, 1px 1px 5px #ffffff;
+}
+#firebaseui-auth-container > div > div.firebaseui-card-footer.firebaseui-provider-sign-in-footer > p {
+
+	text-shadow: none;
+}
